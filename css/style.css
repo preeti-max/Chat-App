@@ -1,0 +1,90 @@
+.logo{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#time{
+    color:blue;
+    float: right;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(24, 23, 24));
+    height: 100vh;
+}
+.container{
+    /* background-color:red; */
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 955px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+.message{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(210, 195, 237));
+    /* background-color:grey; */
+    width: 24%;
+    padding:10px;
+    margin: 17px 2px;
+    border:2px solid black;
+    border-radius: 10px;
+   
+}
+.left{
+    float: left;
+    clear:both;
+
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    
+}
+#messageInp{
+    width: 80%;
+    height:34px;
+    border:2px solid black;
+    border-radius:15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 16px;
+}
+.btn{
+    cursor: pointer;
+    border:2px solid black;
+    border-radius:6px;
+    height: 34px;
+    width: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 6px 12px;
+    
+}
+.info{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(134, 199, 125));
+    /* background-color:grey; */
+    width: 20%;
+    padding:6px;
+    margin: 6px 2px;
+    border:2px solid greenyellow;
+    border-radius: 10px;
+    /* background-color:red; */
+}
